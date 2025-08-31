@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  pokeheroesbot:
+    image: pokeheroesbot
+    container_name: pokeheroesbot
+    restart: always
+    networks:
+      - tor-net
+
+networks:
+  tor-net:
+    external: true

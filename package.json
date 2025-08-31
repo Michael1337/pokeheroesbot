@@ -1,0 +1,30 @@
+{
+  "type": "module",
+  "scripts": {
+    "main": "node ./a-shared/run-main.js",
+    "stats": "node ./a-shared/run-stats.js",
+    "test": "node ./a-shared/run-test.js",
+    "storage": "node ./a-shared/run-storage.js",
+    "safari": "node ./a-shared/run-safari.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "axios": "^1.5.1",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.5.0",
+    "https-proxy-agent": "^7.0.6",
+    "node-fetch": "^3.3.2",
+    "node-schedule": "^2.1.1",
+    "nodemailer": "^6.10.1",
+    "socks-proxy-agent": "^8.0.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "eslint": "^9.22.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.3"
+  }
+}
